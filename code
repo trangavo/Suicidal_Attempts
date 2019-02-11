@@ -49,16 +49,6 @@ model3 <- glmer(suicide ~ female_c+age_c+black_c+hispanic_c+two_parents_c+mom_ed
                 +CPOV90_c+CFORBORN_c+fam_attach_c*collective_c+(1+fam_attach_c|nc),
                 family = binomial("logit"), final_com)
 
-
-
-
-
-
-
-
-
-
-
 ### EXTENSION PART
 library(rbounds)
 library(lme4)
